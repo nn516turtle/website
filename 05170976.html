@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+	<link href="style.css" rel="stylesheet" type="text/css">
+
+	<!--ctrl+/ 打註解 : 這4個link 是給 bootstrap用的 B-1 -->	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</head>
+<body>
+	<section id="bar">
+		<nav class="navbar navbar-expand-md navbar-light bg-light">
+			<a class="navbar-brand" href="#">Navbar</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<div class="navbar-nav mr-auto">
+						<!--class中的 avtive 代表被選擇中，所以在index.html中，active效果要放在"首頁"這個字上，在intro.html中，active效果要放在"自我介紹"這個字上-->
+					<a class="nav-item nav-link active" href="index.html"> 首頁 <span class="sr-only">(current)</span></a>
+						<a class="nav-item nav-link active" href="05170976.html">投資QandA</a>
+					<a class="nav-item nav-link" href="intro.html">投資網站介紹</a>
+						<a class="nav-item nav-link" href="contactus.html">聯絡我們</a>
+					</div>
+	
+			</div>
+			
+		</nav>
+
+</section>
+		
+	<section id="QAsecond">
+<div class="container">
+	<div class="row">
+		<div class="col-8 offset-2">
+<div class="accordion" id="accordionExample">
+<!--第一張卡片-->
+  <div class="card">
+      <div class="card-header headerbg" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+         新手該如何學投資?
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body bodybg">
+        學投資或任何事情，首先，要開始有行動。有了行動，要做好「準備」投資最重要的事情就是有足夠的閒置資金，可以讓你後續操作事半功倍。增加資金不外乎是從小就聽過的開源節流，那麼如果你還不知道怎麼開源，至少可以先試試節流的方法
+      </div>
+    </div>
+  </div>
+  
+  <!--第二張卡片-->
+  <div class="card">
+    <div class="card-header headerbg" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          學投資最快的方法是什麼?
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body bodybg1">
+       最快學會的方法，就是直接開始買股票！
+更進一步來說，新手學投資，別單單只看新聞、報紙、雜誌
+你更應該去做 99%的人做不到的事成功機會才大
+      </div>
+    </div>
+  </div>
+  
+   <!--第三張卡片-->
+  <div class="card">
+    <div class="card-header headerbg" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          投資為什麼不要只靠別人？
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body bodybg2">
+       想靠別人幫你賺錢、靠別人選投資標的，
+這是不可能的。
+
+這件事就像你對別人說：幫我念書、幫我考試、幫我得高分。
+結果，不是付出代價，不然就是很大機率不會太好。
+
+除非你很不在意最後的成績，別人幫你賠錢你也心甘情願，
+否則還是靠自己吧!
+      </div>
+    </div>
+   </div>
+   
+	
+<!--第四張卡片-->
+	<div class="card">
+		<div class="card-header headerbg" id="heading4">
+		  <h2 class="mb-0">
+			<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+			 達成以上三個目標的有什麼結果?
+			</button>
+		  </h2>
+		</div>
+    <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionExample">
+      <div class="card-body">
+        <img src="img/7.jpg">
+      </div>
+    </div>
+   </div>
+	
+
+  
+   
+</div>
+		</div>
+	</div>
+</div>	
+</section>	
+</body>
+</html>
